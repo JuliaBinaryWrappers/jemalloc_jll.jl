@@ -1,0 +1,143 @@
+[[jemalloc]]
+arch = "aarch64"
+git-tree-sha1 = "930fb3aae8d570a108ae63cb612a7771f8ab734c"
+os = "macos"
+
+    [[jemalloc.download]]
+    sha256 = "4138dbe8e2b8e0f882ed27657519dfe4f7ed3d672afad5f9ebd2295f81b7869d"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.aarch64-apple-darwin.tar.gz"
+[[jemalloc]]
+arch = "aarch64"
+git-tree-sha1 = "baa408e72c67098ea55664cac15741b6099568c0"
+libc = "glibc"
+os = "linux"
+
+    [[jemalloc.download]]
+    sha256 = "e0ea1f356840d2e4044a4220cffcd56d3ddf7a6729e6dfd9fb1a19bae565fa5d"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.aarch64-linux-gnu.tar.gz"
+[[jemalloc]]
+arch = "aarch64"
+git-tree-sha1 = "49b02f9123e62eb352fca6605182239decc9979b"
+libc = "musl"
+os = "linux"
+
+    [[jemalloc.download]]
+    sha256 = "7efffd227b718aaee531ade6799db4eedc5305e7553f3b8e48a8f47b1e8fd09e"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.aarch64-linux-musl.tar.gz"
+[[jemalloc]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "50e319679cf787da2e5418853c6f9ec1bd18af18"
+libc = "glibc"
+os = "linux"
+
+    [[jemalloc.download]]
+    sha256 = "4ceb7a272720401e690d14c75f2c144bc0dd931ebf6e7c96f4bc17a6640029fc"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.armv6l-linux-gnueabihf.tar.gz"
+[[jemalloc]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "aceee990e5e8de7911fe8a84faf48a28b53682d2"
+libc = "musl"
+os = "linux"
+
+    [[jemalloc.download]]
+    sha256 = "7835ae3365405ca56ae61be164f75d324e5706ca757d79f033bb1f11b4d775d6"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.armv6l-linux-musleabihf.tar.gz"
+[[jemalloc]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "ea2e54d75d268de0eea17f6ca84ec983e93a3cc4"
+libc = "glibc"
+os = "linux"
+
+    [[jemalloc.download]]
+    sha256 = "1f9d8c1d51904108664127fc4e07a52bc762a559813b3b9d259244ad4b7a8211"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.armv7l-linux-gnueabihf.tar.gz"
+[[jemalloc]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "b057cf1a9b0fca51a2c56bdc8edc69fc1f33429f"
+libc = "musl"
+os = "linux"
+
+    [[jemalloc.download]]
+    sha256 = "8e580f9dfdaace522d37ad325feb7382c87cab2560fe1f84c9175c174ccf2d5a"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.armv7l-linux-musleabihf.tar.gz"
+[[jemalloc]]
+arch = "i686"
+git-tree-sha1 = "e22fa7c05255a9310dc9e27179d3a15cd2f6275c"
+libc = "glibc"
+os = "linux"
+
+    [[jemalloc.download]]
+    sha256 = "c64040599ac47047523f9914d5ae8bbbb41ee34800aba1e13f6f75b75b115ab9"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.i686-linux-gnu.tar.gz"
+[[jemalloc]]
+arch = "i686"
+git-tree-sha1 = "9ae797a078fc2fa040d6f2eb13bff45118485c03"
+libc = "musl"
+os = "linux"
+
+    [[jemalloc.download]]
+    sha256 = "174513e8201495b7012d2a26d80efe303e9a6806634dbb2bd15d087dcf40096d"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.i686-linux-musl.tar.gz"
+[[jemalloc]]
+arch = "i686"
+git-tree-sha1 = "6c9a4e1dabea9c8dd546f621111ebc36c4277475"
+os = "windows"
+
+    [[jemalloc.download]]
+    sha256 = "5ed651ba128541730436a0c4f83231530b68d2828cb850d6d1302745f10ed953"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.i686-w64-mingw32.tar.gz"
+[[jemalloc]]
+arch = "powerpc64le"
+git-tree-sha1 = "eba6e4fc4b3466dfc9ee35f1279b4f41040e9cf3"
+libc = "glibc"
+os = "linux"
+
+    [[jemalloc.download]]
+    sha256 = "e94034f3f7fd3c0576c9d9304d3aa4712c5aa83cd97c595eee88dc27602254a0"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.powerpc64le-linux-gnu.tar.gz"
+[[jemalloc]]
+arch = "x86_64"
+git-tree-sha1 = "bba450b3fd043a1e5ae1bd2e7a7f0f82098cbf81"
+os = "macos"
+
+    [[jemalloc.download]]
+    sha256 = "c3c06c5aa74e9db0113941dfb026c4079a6682c98f67f376be76eaa201eb8a6f"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.x86_64-apple-darwin.tar.gz"
+[[jemalloc]]
+arch = "x86_64"
+git-tree-sha1 = "1891b1ab9eddf44600a22e53aa37341dff371f86"
+libc = "glibc"
+os = "linux"
+
+    [[jemalloc.download]]
+    sha256 = "c8a73fc60ea9137960a0e534b1f7f039c8afd20571f6524fd5ae4d8afb18aa7a"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.x86_64-linux-gnu.tar.gz"
+[[jemalloc]]
+arch = "x86_64"
+git-tree-sha1 = "8e5fb93fceaab21346d0135d8ed9fb4ceaf5ff19"
+libc = "musl"
+os = "linux"
+
+    [[jemalloc.download]]
+    sha256 = "cabecddeef5ccc37df56dcf1514633ba059ba6e2577b2feb3f3967f0fdea68aa"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.x86_64-linux-musl.tar.gz"
+[[jemalloc]]
+arch = "x86_64"
+git-tree-sha1 = "e09939607ad0804a05607272a3602961bbc3cfbb"
+os = "freebsd"
+
+    [[jemalloc.download]]
+    sha256 = "fd052e59189c50819a3b5094140ddcb4a393c15868e5d2f796545f296ef6f33f"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.x86_64-unknown-freebsd.tar.gz"
+[[jemalloc]]
+arch = "x86_64"
+git-tree-sha1 = "94ecb616ce1940f7026a0b7ef8446f46ff3084b3"
+os = "windows"
+
+    [[jemalloc.download]]
+    sha256 = "76192a58fce02ce1a5a4b6004d1e7fe80be65eba889171d48b423ba4d22537e8"
+    url = "https://github.com/JuliaBinaryWrappers/jemalloc_jll.jl/releases/download/jemalloc-v5.2.1+0/jemalloc.v5.2.1.x86_64-w64-mingw32.tar.gz"
